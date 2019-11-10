@@ -1,1 +1,2 @@
-web: gunicorn cfehome.wsgi --log-file -
+web: gunicorn validator.wsgi --log-file -
+
